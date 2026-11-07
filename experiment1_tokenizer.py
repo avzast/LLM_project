@@ -12,6 +12,8 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 PHRASES = {
     "ru": "Искусственный интеллект меняет то, как люди работают с текстом.",
+    "ru_lat": "Iskusstvennyj intellekt menyaet to, kak lyudi rabotayut s tekstom.",  # RU in Latin letters
+    "kk": "Жасанды интеллект адамдардың мәтінмен жұмыс істеу тәсілін өзгертіп жатыр.",  # Kazakh
     "en": "Artificial intelligence is changing how people work with text.",
 }
 ENCODINGS = ["cl100k_base", "o200k_base"]  # GPT-4 / GPT-4o tokenizers
@@ -54,9 +56,15 @@ for enc_name in ENCODINGS:
         print(f"  chars={r['chars']} words={r['words']} tokens={r['tokens']} "
               f"chars/token={r['chars_per_token']} tokens/word={r['tokens_per_word']}")
         print("  " + " | ".join(repr(p) for p in pieces))
-    ratio = results[enc_name]["ru"]["tokens"] / results[enc_name]["en"]["tokens"]
-    results[enc_name]["ru_en_ratio"] = round(ratio, 2)
-    print(f"  RU/EN token ratio: {ratio:.2f}\n")
+    t = {k: results[enc_name][k]["tokens"] for k in PHRASES}
+    results[enc_name]["ru_en_ratio"] = round(t["ru"] / t["en"], 2)
+    results[enc_name]["ru_lat_en_ratio"] = round(t["ru_lat"] / t["en"], 2)
+    results[enc_name]["ru_lat_ru_ratio"] = round(t["ru_lat"] / t["ru"], 2)
+    results[enc_name]["kk_en_ratio"] = round(t["kk"] / t["en"], 2)
+    results[enc_name]["kk_ru_ratio"] = round(t["kk"] / t["ru"], 2)
+    print(f"  RU/EN: {t['ru'] / t['en']:.2f}  RU_LAT/EN: {t['ru_lat'] / t['en']:.2f}  "
+          f"RU_LAT/RU: {t['ru_lat'] / t['ru']:.2f}  KK/EN: {t['kk'] / t['en']:.2f}  "
+          f"KK/RU: {t['kk'] / t['ru']:.2f}\n")
 
 with open("experiment1_results.json", "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
