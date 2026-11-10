@@ -1,0 +1,5 @@
+tiktoken>=0.14
+truststore>=0.10
+tokenizers>=0.23
+huggingface_hub>=2.4
+pytest>=9.0

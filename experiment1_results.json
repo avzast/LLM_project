@@ -296,7 +296,254 @@
     "ru_lat_en_ratio": 2.27,
     "ru_lat_ru_ratio": 0.89,
     "kk_en_ratio": 5.27,
-    "kk_ru_ratio": 2.07
+    "kk_ru_ratio": 2.07,
+    "corpus": {
+      "languages": {
+        "ru": {
+          "n_texts": 6,
+          "total_tokens": 248,
+          "total_words": 84,
+          "tokens_per_word_mean": 3.0,
+          "tokens_per_word_std": 0.38,
+          "pooled_tokens_per_word": 2.95,
+          "chars_per_token_mean": 2.04,
+          "chars_per_token_std": 0.19,
+          "texts": [
+            {
+              "chars": 63,
+              "words": 9,
+              "tokens": 28,
+              "chars_per_token": 2.25,
+              "tokens_per_word": 3.11
+            },
+            {
+              "chars": 49,
+              "words": 9,
+              "tokens": 26,
+              "chars_per_token": 1.88,
+              "tokens_per_word": 2.89
+            },
+            {
+              "chars": 34,
+              "words": 5,
+              "tokens": 18,
+              "chars_per_token": 1.89,
+              "tokens_per_word": 3.6
+            },
+            {
+              "chars": 48,
+              "words": 8,
+              "tokens": 24,
+              "chars_per_token": 2.0,
+              "tokens_per_word": 3.0
+            },
+            {
+              "chars": 55,
+              "words": 12,
+              "tokens": 29,
+              "chars_per_token": 1.9,
+              "tokens_per_word": 2.42
+            },
+            {
+              "chars": 285,
+              "words": 41,
+              "tokens": 123,
+              "chars_per_token": 2.32,
+              "tokens_per_word": 3.0
+            }
+          ]
+        },
+        "ru_lat": {
+          "n_texts": 6,
+          "total_tokens": 217,
+          "total_words": 84,
+          "tokens_per_word_mean": 2.53,
+          "tokens_per_word_std": 0.35,
+          "pooled_tokens_per_word": 2.58,
+          "chars_per_token_mean": 2.55,
+          "chars_per_token_std": 0.09,
+          "texts": [
+            {
+              "chars": 66,
+              "words": 9,
+              "tokens": 25,
+              "chars_per_token": 2.64,
+              "tokens_per_word": 2.78
+            },
+            {
+              "chars": 54,
+              "words": 9,
+              "tokens": 21,
+              "chars_per_token": 2.57,
+              "tokens_per_word": 2.33
+            },
+            {
+              "chars": 36,
+              "words": 5,
+              "tokens": 14,
+              "chars_per_token": 2.57,
+              "tokens_per_word": 2.8
+            },
+            {
+              "chars": 50,
+              "words": 8,
+              "tokens": 21,
+              "chars_per_token": 2.38,
+              "tokens_per_word": 2.62
+            },
+            {
+              "chars": 58,
+              "words": 12,
+              "tokens": 23,
+              "chars_per_token": 2.52,
+              "tokens_per_word": 1.92
+            },
+            {
+              "chars": 293,
+              "words": 41,
+              "tokens": 113,
+              "chars_per_token": 2.59,
+              "tokens_per_word": 2.76
+            }
+          ]
+        },
+        "kk": {
+          "n_texts": 6,
+          "total_tokens": 427,
+          "total_words": 74,
+          "tokens_per_word_mean": 5.59,
+          "tokens_per_word_std": 0.56,
+          "pooled_tokens_per_word": 5.77,
+          "chars_per_token_mean": 1.32,
+          "chars_per_token_std": 0.12,
+          "texts": [
+            {
+              "chars": 73,
+              "words": 9,
+              "tokens": 58,
+              "chars_per_token": 1.26,
+              "tokens_per_word": 6.44
+            },
+            {
+              "chars": 45,
+              "words": 7,
+              "tokens": 35,
+              "chars_per_token": 1.29,
+              "tokens_per_word": 5.0
+            },
+            {
+              "chars": 38,
+              "words": 5,
+              "tokens": 25,
+              "chars_per_token": 1.52,
+              "tokens_per_word": 5.0
+            },
+            {
+              "chars": 60,
+              "words": 8,
+              "tokens": 44,
+              "chars_per_token": 1.36,
+              "tokens_per_word": 5.5
+            },
+            {
+              "chars": 60,
+              "words": 9,
+              "tokens": 51,
+              "chars_per_token": 1.18,
+              "tokens_per_word": 5.67
+            },
+            {
+              "chars": 278,
+              "words": 36,
+              "tokens": 214,
+              "chars_per_token": 1.3,
+              "tokens_per_word": 5.94
+            }
+          ]
+        },
+        "en": {
+          "n_texts": 6,
+          "total_tokens": 115,
+          "total_words": 101,
+          "tokens_per_word_mean": 1.16,
+          "tokens_per_word_std": 0.05,
+          "pooled_tokens_per_word": 1.14,
+          "chars_per_token_mean": 4.67,
+          "chars_per_token_std": 0.69,
+          "texts": [
+            {
+              "chars": 62,
+              "words": 9,
+              "tokens": 11,
+              "chars_per_token": 5.64,
+              "tokens_per_word": 1.22
+            },
+            {
+              "chars": 61,
+              "words": 14,
+              "tokens": 16,
+              "chars_per_token": 3.81,
+              "tokens_per_word": 1.14
+            },
+            {
+              "chars": 48,
+              "words": 9,
+              "tokens": 11,
+              "chars_per_token": 4.36,
+              "tokens_per_word": 1.22
+            },
+            {
+              "chars": 46,
+              "words": 8,
+              "tokens": 9,
+              "chars_per_token": 5.11,
+              "tokens_per_word": 1.12
+            },
+            {
+              "chars": 78,
+              "words": 17,
+              "tokens": 19,
+              "chars_per_token": 4.11,
+              "tokens_per_word": 1.12
+            },
+            {
+              "chars": 246,
+              "words": 44,
+              "tokens": 49,
+              "chars_per_token": 5.02,
+              "tokens_per_word": 1.11
+            }
+          ]
+        }
+      },
+      "ratios": {
+        "ru_en_ratio": {
+          "mean": 2.09,
+          "std": 0.54,
+          "pooled": 2.16
+        },
+        "ru_lat_en_ratio": {
+          "mean": 1.78,
+          "std": 0.57,
+          "pooled": 1.89
+        },
+        "ru_lat_ru_ratio": {
+          "mean": 0.84,
+          "std": 0.06,
+          "pooled": 0.88
+        },
+        "kk_en_ratio": {
+          "mean": 3.61,
+          "std": 1.39,
+          "pooled": 3.71
+        },
+        "kk_ru_ratio": {
+          "mean": 1.69,
+          "std": 0.28,
+          "pooled": 1.72
+        }
+      }
+    }
   },
   "o200k_base": {
     "ru": {
@@ -493,6 +740,1709 @@
     "ru_lat_en_ratio": 2.5,
     "ru_lat_ru_ratio": 1.56,
     "kk_en_ratio": 2.0,
-    "kk_ru_ratio": 1.25
+    "kk_ru_ratio": 1.25,
+    "corpus": {
+      "languages": {
+        "ru": {
+          "n_texts": 6,
+          "total_tokens": 137,
+          "total_words": 84,
+          "tokens_per_word_mean": 1.67,
+          "tokens_per_word_std": 0.21,
+          "pooled_tokens_per_word": 1.63,
+          "chars_per_token_mean": 3.68,
+          "chars_per_token_std": 0.43,
+          "texts": [
+            {
+              "chars": 63,
+              "words": 9,
+              "tokens": 16,
+              "chars_per_token": 3.94,
+              "tokens_per_word": 1.78
+            },
+            {
+              "chars": 49,
+              "words": 9,
+              "tokens": 15,
+              "chars_per_token": 3.27,
+              "tokens_per_word": 1.67
+            },
+            {
+              "chars": 34,
+              "words": 5,
+              "tokens": 10,
+              "chars_per_token": 3.4,
+              "tokens_per_word": 2.0
+            },
+            {
+              "chars": 48,
+              "words": 8,
+              "tokens": 12,
+              "chars_per_token": 4.0,
+              "tokens_per_word": 1.5
+            },
+            {
+              "chars": 55,
+              "words": 12,
+              "tokens": 17,
+              "chars_per_token": 3.24,
+              "tokens_per_word": 1.42
+            },
+            {
+              "chars": 285,
+              "words": 41,
+              "tokens": 67,
+              "chars_per_token": 4.25,
+              "tokens_per_word": 1.63
+            }
+          ]
+        },
+        "ru_lat": {
+          "n_texts": 6,
+          "total_tokens": 200,
+          "total_words": 84,
+          "tokens_per_word_mean": 2.35,
+          "tokens_per_word_std": 0.36,
+          "pooled_tokens_per_word": 2.38,
+          "chars_per_token_mean": 2.75,
+          "chars_per_token_std": 0.07,
+          "texts": [
+            {
+              "chars": 66,
+              "words": 9,
+              "tokens": 25,
+              "chars_per_token": 2.64,
+              "tokens_per_word": 2.78
+            },
+            {
+              "chars": 54,
+              "words": 9,
+              "tokens": 20,
+              "chars_per_token": 2.7,
+              "tokens_per_word": 2.22
+            },
+            {
+              "chars": 36,
+              "words": 5,
+              "tokens": 13,
+              "chars_per_token": 2.77,
+              "tokens_per_word": 2.6
+            },
+            {
+              "chars": 50,
+              "words": 8,
+              "tokens": 18,
+              "chars_per_token": 2.78,
+              "tokens_per_word": 2.25
+            },
+            {
+              "chars": 58,
+              "words": 12,
+              "tokens": 21,
+              "chars_per_token": 2.76,
+              "tokens_per_word": 1.75
+            },
+            {
+              "chars": 293,
+              "words": 41,
+              "tokens": 103,
+              "chars_per_token": 2.84,
+              "tokens_per_word": 2.51
+            }
+          ]
+        },
+        "kk": {
+          "n_texts": 6,
+          "total_tokens": 166,
+          "total_words": 74,
+          "tokens_per_word_mean": 2.28,
+          "tokens_per_word_std": 0.15,
+          "pooled_tokens_per_word": 2.24,
+          "chars_per_token_mean": 3.24,
+          "chars_per_token_std": 0.38,
+          "texts": [
+            {
+              "chars": 73,
+              "words": 9,
+              "tokens": 20,
+              "chars_per_token": 3.65,
+              "tokens_per_word": 2.22
+            },
+            {
+              "chars": 45,
+              "words": 7,
+              "tokens": 17,
+              "chars_per_token": 2.65,
+              "tokens_per_word": 2.43
+            },
+            {
+              "chars": 38,
+              "words": 5,
+              "tokens": 11,
+              "chars_per_token": 3.45,
+              "tokens_per_word": 2.2
+            },
+            {
+              "chars": 60,
+              "words": 8,
+              "tokens": 20,
+              "chars_per_token": 3.0,
+              "tokens_per_word": 2.5
+            },
+            {
+              "chars": 60,
+              "words": 9,
+              "tokens": 19,
+              "chars_per_token": 3.16,
+              "tokens_per_word": 2.11
+            },
+            {
+              "chars": 278,
+              "words": 36,
+              "tokens": 79,
+              "chars_per_token": 3.52,
+              "tokens_per_word": 2.19
+            }
+          ]
+        },
+        "en": {
+          "n_texts": 6,
+          "total_tokens": 114,
+          "total_words": 101,
+          "tokens_per_word_mean": 1.14,
+          "tokens_per_word_std": 0.04,
+          "pooled_tokens_per_word": 1.13,
+          "chars_per_token_mean": 4.77,
+          "chars_per_token_std": 0.87,
+          "texts": [
+            {
+              "chars": 62,
+              "words": 9,
+              "tokens": 10,
+              "chars_per_token": 6.2,
+              "tokens_per_word": 1.11
+            },
+            {
+              "chars": 61,
+              "words": 14,
+              "tokens": 16,
+              "chars_per_token": 3.81,
+              "tokens_per_word": 1.14
+            },
+            {
+              "chars": 48,
+              "words": 9,
+              "tokens": 11,
+              "chars_per_token": 4.36,
+              "tokens_per_word": 1.22
+            },
+            {
+              "chars": 46,
+              "words": 8,
+              "tokens": 9,
+              "chars_per_token": 5.11,
+              "tokens_per_word": 1.12
+            },
+            {
+              "chars": 78,
+              "words": 17,
+              "tokens": 19,
+              "chars_per_token": 4.11,
+              "tokens_per_word": 1.12
+            },
+            {
+              "chars": 246,
+              "words": 44,
+              "tokens": 49,
+              "chars_per_token": 5.02,
+              "tokens_per_word": 1.11
+            }
+          ]
+        }
+      },
+      "ratios": {
+        "ru_en_ratio": {
+          "mean": 1.17,
+          "std": 0.3,
+          "pooled": 1.2
+        },
+        "ru_lat_en_ratio": {
+          "mean": 1.69,
+          "std": 0.59,
+          "pooled": 1.75
+        },
+        "ru_lat_ru_ratio": {
+          "mean": 1.41,
+          "std": 0.14,
+          "pooled": 1.46
+        },
+        "kk_en_ratio": {
+          "mean": 1.48,
+          "std": 0.54,
+          "pooled": 1.46
+        },
+        "kk_ru_ratio": {
+          "mean": 1.24,
+          "std": 0.22,
+          "pooled": 1.21
+        }
+      }
+    }
+  },
+  "qwen2.5": {
+    "ru": {
+      "text": "Искусственный интеллект меняет то, как люди работают с текстом.",
+      "chars": 63,
+      "words": 9,
+      "tokens": 19,
+      "chars_per_token": 3.32,
+      "tokens_per_word": 2.11,
+      "pieces": [
+        "И",
+        "с",
+        "кус",
+        "ственный",
+        " ин",
+        "тел",
+        "лект",
+        " меня",
+        "ет",
+        " то",
+        ",",
+        " как",
+        " люди",
+        " работ",
+        "ают",
+        " с",
+        " текст",
+        "ом",
+        "."
+      ],
+      "ids": [
+        30174,
+        2247,
+        126099,
+        140351,
+        40978,
+        125999,
+        127076,
+        129052,
+        8178,
+        58246,
+        11,
+        51670,
+        132782,
+        53104,
+        129371,
+        5409,
+        70895,
+        12228,
+        13
+      ]
+    },
+    "ru_lat": {
+      "text": "Iskusstvennyj intellekt menyaet to, kak lyudi rabotayut s tekstom.",
+      "chars": 66,
+      "words": 9,
+      "tokens": 25,
+      "chars_per_token": 2.64,
+      "tokens_per_word": 2.78,
+      "pieces": [
+        "Is",
+        "kus",
+        "st",
+        "ven",
+        "ny",
+        "j",
+        " int",
+        "elle",
+        "kt",
+        " men",
+        "ya",
+        "et",
+        " to",
+        ",",
+        " kak",
+        " ly",
+        "udi",
+        " rab",
+        "ot",
+        "ay",
+        "ut",
+        " s",
+        " tekst",
+        "om",
+        "."
+      ],
+      "ids": [
+        3872,
+        78466,
+        267,
+        1037,
+        3834,
+        73,
+        526,
+        6712,
+        5840,
+        2953,
+        7755,
+        295,
+        311,
+        11,
+        95401,
+        14528,
+        20536,
+        30574,
+        354,
+        352,
+        332,
+        274,
+        72578,
+        316,
+        13
+      ]
+    },
+    "kk": {
+      "text": "Жасанды интеллект адамдардың мәтінмен жұмыс істеу тәсілін өзгертіп жатыр.",
+      "chars": 73,
+      "words": 9,
+      "tokens": 44,
+      "chars_per_token": 1.66,
+      "tokens_per_word": 4.89,
+      "pieces": [
+        "Ж",
+        "ас",
+        "анд",
+        "ы",
+        " ин",
+        "тел",
+        "лект",
+        " ад",
+        "ам",
+        "дар",
+        "ды",
+        "ң",
+        " м",
+        "ә",
+        "т",
+        "і",
+        "н",
+        "мен",
+        " ж",
+        "ұ",
+        "мы",
+        "с",
+        " і",
+        "сте",
+        "у",
+        " т",
+        "ә",
+        "с",
+        "і",
+        "л",
+        "і",
+        "н",
+        " ",
+        "ө",
+        "з",
+        "г",
+        "ерт",
+        "і",
+        "п",
+        " ж",
+        "ат",
+        "ы",
+        "р",
+        "."
+      ],
+      "ids": [
+        132042,
+        17953,
+        75459,
+        4552,
+        40978,
+        125999,
+        127076,
+        142742,
+        23763,
+        133679,
+        129221,
+        145125,
+        11310,
+        145004,
+        1792,
+        26289,
+        2108,
+        37872,
+        57217,
+        145227,
+        125153,
+        2247,
+        83854,
+        130933,
+        3780,
+        10813,
+        145004,
+        2247,
+        26289,
+        3038,
+        26289,
+        2108,
+        220,
+        145369,
+        8959,
+        15390,
+        127962,
+        26289,
+        8005,
+        57217,
+        7972,
+        4552,
+        2184,
+        13
+      ]
+    },
+    "en": {
+      "text": "Artificial intelligence is changing how people work with text.",
+      "chars": 62,
+      "words": 9,
+      "tokens": 11,
+      "chars_per_token": 5.64,
+      "tokens_per_word": 1.22,
+      "pieces": [
+        "Art",
+        "ificial",
+        " intelligence",
+        " is",
+        " changing",
+        " how",
+        " people",
+        " work",
+        " with",
+        " text",
+        "."
+      ],
+      "ids": [
+        9286,
+        16488,
+        11229,
+        374,
+        10018,
+        1246,
+        1251,
+        975,
+        448,
+        1467,
+        13
+      ]
+    },
+    "ru_en_ratio": 1.73,
+    "ru_lat_en_ratio": 2.27,
+    "ru_lat_ru_ratio": 1.32,
+    "kk_en_ratio": 4.0,
+    "kk_ru_ratio": 2.32,
+    "corpus": {
+      "languages": {
+        "ru": {
+          "n_texts": 6,
+          "total_tokens": 176,
+          "total_words": 84,
+          "tokens_per_word_mean": 2.18,
+          "tokens_per_word_std": 0.44,
+          "pooled_tokens_per_word": 2.1,
+          "chars_per_token_mean": 2.85,
+          "chars_per_token_std": 0.44,
+          "texts": [
+            {
+              "chars": 63,
+              "words": 9,
+              "tokens": 19,
+              "chars_per_token": 3.32,
+              "tokens_per_word": 2.11
+            },
+            {
+              "chars": 49,
+              "words": 9,
+              "tokens": 20,
+              "chars_per_token": 2.45,
+              "tokens_per_word": 2.22
+            },
+            {
+              "chars": 34,
+              "words": 5,
+              "tokens": 15,
+              "chars_per_token": 2.27,
+              "tokens_per_word": 3.0
+            },
+            {
+              "chars": 48,
+              "words": 8,
+              "tokens": 16,
+              "chars_per_token": 3.0,
+              "tokens_per_word": 2.0
+            },
+            {
+              "chars": 55,
+              "words": 12,
+              "tokens": 20,
+              "chars_per_token": 2.75,
+              "tokens_per_word": 1.67
+            },
+            {
+              "chars": 285,
+              "words": 41,
+              "tokens": 86,
+              "chars_per_token": 3.31,
+              "tokens_per_word": 2.1
+            }
+          ]
+        },
+        "ru_lat": {
+          "n_texts": 6,
+          "total_tokens": 216,
+          "total_words": 84,
+          "tokens_per_word_mean": 2.51,
+          "tokens_per_word_std": 0.35,
+          "pooled_tokens_per_word": 2.57,
+          "chars_per_token_mean": 2.57,
+          "chars_per_token_std": 0.05,
+          "texts": [
+            {
+              "chars": 66,
+              "words": 9,
+              "tokens": 25,
+              "chars_per_token": 2.64,
+              "tokens_per_word": 2.78
+            },
+            {
+              "chars": 54,
+              "words": 9,
+              "tokens": 21,
+              "chars_per_token": 2.57,
+              "tokens_per_word": 2.33
+            },
+            {
+              "chars": 36,
+              "words": 5,
+              "tokens": 14,
+              "chars_per_token": 2.57,
+              "tokens_per_word": 2.8
+            },
+            {
+              "chars": 50,
+              "words": 8,
+              "tokens": 20,
+              "chars_per_token": 2.5,
+              "tokens_per_word": 2.5
+            },
+            {
+              "chars": 58,
+              "words": 12,
+              "tokens": 23,
+              "chars_per_token": 2.52,
+              "tokens_per_word": 1.92
+            },
+            {
+              "chars": 293,
+              "words": 41,
+              "tokens": 113,
+              "chars_per_token": 2.59,
+              "tokens_per_word": 2.76
+            }
+          ]
+        },
+        "kk": {
+          "n_texts": 6,
+          "total_tokens": 340,
+          "total_words": 74,
+          "tokens_per_word_mean": 4.52,
+          "tokens_per_word_std": 0.25,
+          "pooled_tokens_per_word": 4.59,
+          "chars_per_token_mean": 1.63,
+          "chars_per_token_std": 0.13,
+          "texts": [
+            {
+              "chars": 73,
+              "words": 9,
+              "tokens": 44,
+              "chars_per_token": 1.66,
+              "tokens_per_word": 4.89
+            },
+            {
+              "chars": 45,
+              "words": 7,
+              "tokens": 30,
+              "chars_per_token": 1.5,
+              "tokens_per_word": 4.29
+            },
+            {
+              "chars": 38,
+              "words": 5,
+              "tokens": 21,
+              "chars_per_token": 1.81,
+              "tokens_per_word": 4.2
+            },
+            {
+              "chars": 60,
+              "words": 8,
+              "tokens": 36,
+              "chars_per_token": 1.67,
+              "tokens_per_word": 4.5
+            },
+            {
+              "chars": 60,
+              "words": 9,
+              "tokens": 41,
+              "chars_per_token": 1.46,
+              "tokens_per_word": 4.56
+            },
+            {
+              "chars": 278,
+              "words": 36,
+              "tokens": 168,
+              "chars_per_token": 1.65,
+              "tokens_per_word": 4.67
+            }
+          ]
+        },
+        "en": {
+          "n_texts": 6,
+          "total_tokens": 115,
+          "total_words": 101,
+          "tokens_per_word_mean": 1.16,
+          "tokens_per_word_std": 0.05,
+          "pooled_tokens_per_word": 1.14,
+          "chars_per_token_mean": 4.67,
+          "chars_per_token_std": 0.69,
+          "texts": [
+            {
+              "chars": 62,
+              "words": 9,
+              "tokens": 11,
+              "chars_per_token": 5.64,
+              "tokens_per_word": 1.22
+            },
+            {
+              "chars": 61,
+              "words": 14,
+              "tokens": 16,
+              "chars_per_token": 3.81,
+              "tokens_per_word": 1.14
+            },
+            {
+              "chars": 48,
+              "words": 9,
+              "tokens": 11,
+              "chars_per_token": 4.36,
+              "tokens_per_word": 1.22
+            },
+            {
+              "chars": 46,
+              "words": 8,
+              "tokens": 9,
+              "chars_per_token": 5.11,
+              "tokens_per_word": 1.12
+            },
+            {
+              "chars": 78,
+              "words": 17,
+              "tokens": 19,
+              "chars_per_token": 4.11,
+              "tokens_per_word": 1.12
+            },
+            {
+              "chars": 246,
+              "words": 44,
+              "tokens": 49,
+              "chars_per_token": 5.02,
+              "tokens_per_word": 1.11
+            }
+          ]
+        }
+      },
+      "ratios": {
+        "ru_en_ratio": {
+          "mean": 1.49,
+          "std": 0.31,
+          "pooled": 1.53
+        },
+        "ru_lat_en_ratio": {
+          "mean": 1.77,
+          "std": 0.55,
+          "pooled": 1.88
+        },
+        "ru_lat_ru_ratio": {
+          "mean": 1.17,
+          "std": 0.15,
+          "pooled": 1.23
+        },
+        "kk_en_ratio": {
+          "mean": 2.9,
+          "std": 1.03,
+          "pooled": 2.96
+        },
+        "kk_ru_ratio": {
+          "mean": 1.91,
+          "std": 0.38,
+          "pooled": 1.93
+        }
+      }
+    }
+  },
+  "xlm-roberta": {
+    "ru": {
+      "text": "Искусственный интеллект меняет то, как люди работают с текстом.",
+      "chars": 63,
+      "words": 9,
+      "tokens": 18,
+      "chars_per_token": 3.5,
+      "tokens_per_word": 2.0,
+      "pieces": [
+        "Ис",
+        "кус",
+        "ствен",
+        "ный",
+        " инте",
+        "лл",
+        "ект",
+        " меня",
+        "ет",
+        " то",
+        ",",
+        " как",
+        " люди",
+        " работают",
+        " с",
+        " текст",
+        "ом",
+        "."
+      ],
+      "ids": [
+        19832,
+        36697,
+        25337,
+        2192,
+        78049,
+        50174,
+        23971,
+        3925,
+        1730,
+        690,
+        4,
+        819,
+        9542,
+        116083,
+        135,
+        13587,
+        419,
+        5
+      ]
+    },
+    "ru_lat": {
+      "text": "Iskusstvennyj intellekt menyaet to, kak lyudi rabotayut s tekstom.",
+      "chars": 66,
+      "words": 9,
+      "tokens": 23,
+      "chars_per_token": 2.87,
+      "tokens_per_word": 2.56,
+      "pieces": [
+        "Is",
+        "kus",
+        "st",
+        "ven",
+        "ny",
+        "j",
+        " ",
+        "intellekt",
+        " me",
+        "nya",
+        "et",
+        " to",
+        ",",
+        " kak",
+        " ly",
+        "udi",
+        " rabo",
+        "tay",
+        "ut",
+        " s",
+        " teksto",
+        "m",
+        "."
+      ],
+      "ids": [
+        2071,
+        6769,
+        271,
+        1353,
+        299,
+        170,
+        6,
+        187407,
+        163,
+        273,
+        126,
+        47,
+        4,
+        18795,
+        16500,
+        9198,
+        136340,
+        7164,
+        1003,
+        91,
+        36882,
+        39,
+        5
+      ]
+    },
+    "kk": {
+      "text": "Жасанды интеллект адамдардың мәтінмен жұмыс істеу тәсілін өзгертіп жатыр.",
+      "chars": 73,
+      "words": 9,
+      "tokens": 17,
+      "chars_per_token": 4.29,
+      "tokens_per_word": 1.89,
+      "pieces": [
+        "Жа",
+        "сан",
+        "ды",
+        " инте",
+        "лл",
+        "ект",
+        " адамдардың",
+        " мәтін",
+        "мен",
+        " жұмыс",
+        " істеу",
+        " тәсіл",
+        "ін",
+        " өзгер",
+        "тіп",
+        " жатыр",
+        "."
+      ],
+      "ids": [
+        18465,
+        4753,
+        1085,
+        78049,
+        50174,
+        23971,
+        161252,
+        157805,
+        1488,
+        9406,
+        116909,
+        153719,
+        3191,
+        72747,
+        127475,
+        56878,
+        5
+      ]
+    },
+    "en": {
+      "text": "Artificial intelligence is changing how people work with text.",
+      "chars": 62,
+      "words": 9,
+      "tokens": 11,
+      "chars_per_token": 5.64,
+      "tokens_per_word": 1.22,
+      "pieces": [
+        "Artificial",
+        " ",
+        "intelligence",
+        " is",
+        " changing",
+        " how",
+        " people",
+        " work",
+        " with",
+        " text",
+        "."
+      ],
+      "ids": [
+        231996,
+        6,
+        130687,
+        83,
+        151134,
+        3642,
+        3395,
+        4488,
+        678,
+        7986,
+        5
+      ]
+    },
+    "ru_en_ratio": 1.64,
+    "ru_lat_en_ratio": 2.09,
+    "ru_lat_ru_ratio": 1.28,
+    "kk_en_ratio": 1.55,
+    "kk_ru_ratio": 0.94,
+    "corpus": {
+      "languages": {
+        "ru": {
+          "n_texts": 6,
+          "total_tokens": 135,
+          "total_words": 84,
+          "tokens_per_word_mean": 1.61,
+          "tokens_per_word_std": 0.2,
+          "pooled_tokens_per_word": 1.61,
+          "chars_per_token_mean": 3.82,
+          "chars_per_token_std": 0.48,
+          "texts": [
+            {
+              "chars": 63,
+              "words": 9,
+              "tokens": 18,
+              "chars_per_token": 3.5,
+              "tokens_per_word": 2.0
+            },
+            {
+              "chars": 49,
+              "words": 9,
+              "tokens": 13,
+              "chars_per_token": 3.77,
+              "tokens_per_word": 1.44
+            },
+            {
+              "chars": 34,
+              "words": 5,
+              "tokens": 8,
+              "chars_per_token": 4.25,
+              "tokens_per_word": 1.6
+            },
+            {
+              "chars": 48,
+              "words": 8,
+              "tokens": 12,
+              "chars_per_token": 4.0,
+              "tokens_per_word": 1.5
+            },
+            {
+              "chars": 55,
+              "words": 12,
+              "tokens": 18,
+              "chars_per_token": 3.06,
+              "tokens_per_word": 1.5
+            },
+            {
+              "chars": 285,
+              "words": 41,
+              "tokens": 66,
+              "chars_per_token": 4.32,
+              "tokens_per_word": 1.61
+            }
+          ]
+        },
+        "ru_lat": {
+          "n_texts": 6,
+          "total_tokens": 189,
+          "total_words": 84,
+          "tokens_per_word_mean": 2.25,
+          "tokens_per_word_std": 0.39,
+          "pooled_tokens_per_word": 2.25,
+          "chars_per_token_mean": 2.89,
+          "chars_per_token_std": 0.17,
+          "texts": [
+            {
+              "chars": 66,
+              "words": 9,
+              "tokens": 23,
+              "chars_per_token": 2.87,
+              "tokens_per_word": 2.56
+            },
+            {
+              "chars": 54,
+              "words": 9,
+              "tokens": 18,
+              "chars_per_token": 3.0,
+              "tokens_per_word": 2.0
+            },
+            {
+              "chars": 36,
+              "words": 5,
+              "tokens": 13,
+              "chars_per_token": 2.77,
+              "tokens_per_word": 2.6
+            },
+            {
+              "chars": 50,
+              "words": 8,
+              "tokens": 19,
+              "chars_per_token": 2.63,
+              "tokens_per_word": 2.38
+            },
+            {
+              "chars": 58,
+              "words": 12,
+              "tokens": 19,
+              "chars_per_token": 3.05,
+              "tokens_per_word": 1.58
+            },
+            {
+              "chars": 293,
+              "words": 41,
+              "tokens": 97,
+              "chars_per_token": 3.02,
+              "tokens_per_word": 2.37
+            }
+          ]
+        },
+        "kk": {
+          "n_texts": 6,
+          "total_tokens": 140,
+          "total_words": 74,
+          "tokens_per_word_mean": 1.91,
+          "tokens_per_word_std": 0.3,
+          "pooled_tokens_per_word": 1.89,
+          "chars_per_token_mean": 3.93,
+          "chars_per_token_std": 0.71,
+          "texts": [
+            {
+              "chars": 73,
+              "words": 9,
+              "tokens": 17,
+              "chars_per_token": 4.29,
+              "tokens_per_word": 1.89
+            },
+            {
+              "chars": 45,
+              "words": 7,
+              "tokens": 17,
+              "chars_per_token": 2.65,
+              "tokens_per_word": 2.43
+            },
+            {
+              "chars": 38,
+              "words": 5,
+              "tokens": 8,
+              "chars_per_token": 4.75,
+              "tokens_per_word": 1.6
+            },
+            {
+              "chars": 60,
+              "words": 8,
+              "tokens": 16,
+              "chars_per_token": 3.75,
+              "tokens_per_word": 2.0
+            },
+            {
+              "chars": 60,
+              "words": 9,
+              "tokens": 15,
+              "chars_per_token": 4.0,
+              "tokens_per_word": 1.67
+            },
+            {
+              "chars": 278,
+              "words": 36,
+              "tokens": 67,
+              "chars_per_token": 4.15,
+              "tokens_per_word": 1.86
+            }
+          ]
+        },
+        "en": {
+          "n_texts": 6,
+          "total_tokens": 125,
+          "total_words": 101,
+          "tokens_per_word_mean": 1.24,
+          "tokens_per_word_std": 0.12,
+          "pooled_tokens_per_word": 1.24,
+          "chars_per_token_mean": 4.39,
+          "chars_per_token_std": 0.85,
+          "texts": [
+            {
+              "chars": 62,
+              "words": 9,
+              "tokens": 11,
+              "chars_per_token": 5.64,
+              "tokens_per_word": 1.22
+            },
+            {
+              "chars": 61,
+              "words": 14,
+              "tokens": 16,
+              "chars_per_token": 3.81,
+              "tokens_per_word": 1.14
+            },
+            {
+              "chars": 48,
+              "words": 9,
+              "tokens": 13,
+              "chars_per_token": 3.69,
+              "tokens_per_word": 1.44
+            },
+            {
+              "chars": 46,
+              "words": 8,
+              "tokens": 9,
+              "chars_per_token": 5.11,
+              "tokens_per_word": 1.12
+            },
+            {
+              "chars": 78,
+              "words": 17,
+              "tokens": 22,
+              "chars_per_token": 3.55,
+              "tokens_per_word": 1.29
+            },
+            {
+              "chars": 246,
+              "words": 44,
+              "tokens": 54,
+              "chars_per_token": 4.56,
+              "tokens_per_word": 1.23
+            }
+          ]
+        }
+      },
+      "ratios": {
+        "ru_en_ratio": {
+          "mean": 1.07,
+          "std": 0.39,
+          "pooled": 1.08
+        },
+        "ru_lat_en_ratio": {
+          "mean": 1.5,
+          "std": 0.57,
+          "pooled": 1.51
+        },
+        "ru_lat_ru_ratio": {
+          "mean": 1.4,
+          "std": 0.21,
+          "pooled": 1.4
+        },
+        "kk_en_ratio": {
+          "mean": 1.15,
+          "std": 0.46,
+          "pooled": 1.12
+        },
+        "kk_ru_ratio": {
+          "mean": 1.07,
+          "std": 0.2,
+          "pooled": 1.04
+        }
+      }
+    }
+  },
+  "mistral-7b": {
+    "ru": {
+      "text": "Искусственный интеллект меняет то, как люди работают с текстом.",
+      "chars": 63,
+      "words": 9,
+      "tokens": 25,
+      "chars_per_token": 2.52,
+      "tokens_per_word": 2.78,
+      "pieces": [
+        "И",
+        "ску",
+        "с",
+        "ствен",
+        "ный",
+        " ин",
+        "тел",
+        "лект",
+        " м",
+        "ен",
+        "я",
+        "ет",
+        " то",
+        ",",
+        " как",
+        " лю",
+        "ди",
+        " работа",
+        "ют",
+        " с",
+        " те",
+        "к",
+        "сто",
+        "м",
+        "."
+      ],
+      "ids": [
+        3615,
+        11249,
+        28788,
+        7265,
+        4086,
+        8257,
+        12516,
+        18981,
+        1131,
+        939,
+        28811,
+        2734,
+        3846,
+        28725,
+        8600,
+        12566,
+        1454,
+        26726,
+        7311,
+        698,
+        3882,
+        28795,
+        2276,
+        28803,
+        28723
+      ]
+    },
+    "ru_lat": {
+      "text": "Iskusstvennyj intellekt menyaet to, kak lyudi rabotayut s tekstom.",
+      "chars": 66,
+      "words": 9,
+      "tokens": 28,
+      "chars_per_token": 2.36,
+      "tokens_per_word": 3.11,
+      "pieces": [
+        "I",
+        "sk",
+        "us",
+        "st",
+        "ven",
+        "ny",
+        "j",
+        " int",
+        "elle",
+        "kt",
+        " men",
+        "ya",
+        "et",
+        " to",
+        ",",
+        " k",
+        "ak",
+        " ly",
+        "udi",
+        " rab",
+        "ot",
+        "ay",
+        "ut",
+        " s",
+        " tek",
+        "st",
+        "om",
+        "."
+      ],
+      "ids": [
+        315,
+        1252,
+        381,
+        303,
+        1434,
+        1780,
+        28768,
+        716,
+        3222,
+        2254,
+        1683,
+        5157,
+        299,
+        298,
+        28725,
+        446,
+        491,
+        18467,
+        11091,
+        16479,
+        322,
+        339,
+        329,
+        268,
+        27107,
+        303,
+        300,
+        28723
+      ]
+    },
+    "kk": {
+      "text": "Жасанды интеллект адамдардың мәтінмен жұмыс істеу тәсілін өзгертіп жатыр.",
+      "chars": 73,
+      "words": 9,
+      "tokens": 43,
+      "chars_per_token": 1.7,
+      "tokens_per_word": 4.78,
+      "pieces": [
+        "Ж",
+        "а",
+        "с",
+        "ан",
+        "ды",
+        " ин",
+        "тел",
+        "лект",
+        " а",
+        "да",
+        "м",
+        "дар",
+        "ды",
+        "ң",
+        " м",
+        "ә",
+        "ті",
+        "н",
+        "мен",
+        " ж",
+        "ұ",
+        "мы",
+        "с",
+        " і",
+        "сте",
+        "у",
+        " т",
+        "ә",
+        "сі",
+        "лі",
+        "н",
+        " ",
+        "ө",
+        "з",
+        "г",
+        "ер",
+        "ті",
+        "п",
+        " ",
+        "жа",
+        "ты",
+        "р",
+        "."
+      ],
+      "ids": [
+        11000,
+        28763,
+        28788,
+        2239,
+        7390,
+        8257,
+        12516,
+        18981,
+        1622,
+        1225,
+        28803,
+        9211,
+        7390,
+        31000,
+        1131,
+        30141,
+        8240,
+        28778,
+        4029,
+        8937,
+        31357,
+        9379,
+        28788,
+        3213,
+        6825,
+        28805,
+        3265,
+        30141,
+        7758,
+        3132,
+        28778,
+        28705,
+        30340,
+        28812,
+        28810,
+        1226,
+        8240,
+        28807,
+        28705,
+        4483,
+        5555,
+        28785,
+        28723
+      ]
+    },
+    "en": {
+      "text": "Artificial intelligence is changing how people work with text.",
+      "chars": 62,
+      "words": 9,
+      "tokens": 11,
+      "chars_per_token": 5.64,
+      "tokens_per_word": 1.22,
+      "pieces": [
+        "Art",
+        "ificial",
+        " intelligence",
+        " is",
+        " changing",
+        " how",
+        " people",
+        " work",
+        " with",
+        " text",
+        "."
+      ],
+      "ids": [
+        3951,
+        14773,
+        10895,
+        349,
+        8634,
+        910,
+        905,
+        771,
+        395,
+        2245,
+        28723
+      ]
+    },
+    "ru_en_ratio": 2.27,
+    "ru_lat_en_ratio": 2.55,
+    "ru_lat_ru_ratio": 1.12,
+    "kk_en_ratio": 3.91,
+    "kk_ru_ratio": 1.72,
+    "corpus": {
+      "languages": {
+        "ru": {
+          "n_texts": 6,
+          "total_tokens": 213,
+          "total_words": 84,
+          "tokens_per_word_mean": 2.61,
+          "tokens_per_word_std": 0.28,
+          "pooled_tokens_per_word": 2.54,
+          "chars_per_token_mean": 2.35,
+          "chars_per_token_std": 0.25,
+          "texts": [
+            {
+              "chars": 63,
+              "words": 9,
+              "tokens": 25,
+              "chars_per_token": 2.52,
+              "tokens_per_word": 2.78
+            },
+            {
+              "chars": 49,
+              "words": 9,
+              "tokens": 23,
+              "chars_per_token": 2.13,
+              "tokens_per_word": 2.56
+            },
+            {
+              "chars": 34,
+              "words": 5,
+              "tokens": 15,
+              "chars_per_token": 2.27,
+              "tokens_per_word": 3.0
+            },
+            {
+              "chars": 48,
+              "words": 8,
+              "tokens": 21,
+              "chars_per_token": 2.29,
+              "tokens_per_word": 2.62
+            },
+            {
+              "chars": 55,
+              "words": 12,
+              "tokens": 26,
+              "chars_per_token": 2.12,
+              "tokens_per_word": 2.17
+            },
+            {
+              "chars": 285,
+              "words": 41,
+              "tokens": 103,
+              "chars_per_token": 2.77,
+              "tokens_per_word": 2.51
+            }
+          ]
+        },
+        "ru_lat": {
+          "n_texts": 6,
+          "total_tokens": 229,
+          "total_words": 84,
+          "tokens_per_word_mean": 2.68,
+          "tokens_per_word_std": 0.41,
+          "pooled_tokens_per_word": 2.73,
+          "chars_per_token_mean": 2.41,
+          "chars_per_token_std": 0.06,
+          "texts": [
+            {
+              "chars": 66,
+              "words": 9,
+              "tokens": 28,
+              "chars_per_token": 2.36,
+              "tokens_per_word": 3.11
+            },
+            {
+              "chars": 54,
+              "words": 9,
+              "tokens": 23,
+              "chars_per_token": 2.35,
+              "tokens_per_word": 2.56
+            },
+            {
+              "chars": 36,
+              "words": 5,
+              "tokens": 15,
+              "chars_per_token": 2.4,
+              "tokens_per_word": 3.0
+            },
+            {
+              "chars": 50,
+              "words": 8,
+              "tokens": 20,
+              "chars_per_token": 2.5,
+              "tokens_per_word": 2.5
+            },
+            {
+              "chars": 58,
+              "words": 12,
+              "tokens": 24,
+              "chars_per_token": 2.42,
+              "tokens_per_word": 2.0
+            },
+            {
+              "chars": 293,
+              "words": 41,
+              "tokens": 119,
+              "chars_per_token": 2.46,
+              "tokens_per_word": 2.9
+            }
+          ]
+        },
+        "kk": {
+          "n_texts": 6,
+          "total_tokens": 329,
+          "total_words": 74,
+          "tokens_per_word_mean": 4.4,
+          "tokens_per_word_std": 0.27,
+          "pooled_tokens_per_word": 4.45,
+          "chars_per_token_mean": 1.67,
+          "chars_per_token_std": 0.06,
+          "texts": [
+            {
+              "chars": 73,
+              "words": 9,
+              "tokens": 43,
+              "chars_per_token": 1.7,
+              "tokens_per_word": 4.78
+            },
+            {
+              "chars": 45,
+              "words": 7,
+              "tokens": 28,
+              "chars_per_token": 1.61,
+              "tokens_per_word": 4.0
+            },
+            {
+              "chars": 38,
+              "words": 5,
+              "tokens": 22,
+              "chars_per_token": 1.73,
+              "tokens_per_word": 4.4
+            },
+            {
+              "chars": 60,
+              "words": 8,
+              "tokens": 36,
+              "chars_per_token": 1.67,
+              "tokens_per_word": 4.5
+            },
+            {
+              "chars": 60,
+              "words": 9,
+              "tokens": 38,
+              "chars_per_token": 1.58,
+              "tokens_per_word": 4.22
+            },
+            {
+              "chars": 278,
+              "words": 36,
+              "tokens": 162,
+              "chars_per_token": 1.72,
+              "tokens_per_word": 4.5
+            }
+          ]
+        },
+        "en": {
+          "n_texts": 6,
+          "total_tokens": 120,
+          "total_words": 101,
+          "tokens_per_word_mean": 1.21,
+          "tokens_per_word_std": 0.12,
+          "pooled_tokens_per_word": 1.19,
+          "chars_per_token_mean": 4.5,
+          "chars_per_token_std": 0.81,
+          "texts": [
+            {
+              "chars": 62,
+              "words": 9,
+              "tokens": 11,
+              "chars_per_token": 5.64,
+              "tokens_per_word": 1.22
+            },
+            {
+              "chars": 61,
+              "words": 14,
+              "tokens": 16,
+              "chars_per_token": 3.81,
+              "tokens_per_word": 1.14
+            },
+            {
+              "chars": 48,
+              "words": 9,
+              "tokens": 13,
+              "chars_per_token": 3.69,
+              "tokens_per_word": 1.44
+            },
+            {
+              "chars": 46,
+              "words": 8,
+              "tokens": 9,
+              "chars_per_token": 5.11,
+              "tokens_per_word": 1.12
+            },
+            {
+              "chars": 78,
+              "words": 17,
+              "tokens": 20,
+              "chars_per_token": 3.9,
+              "tokens_per_word": 1.18
+            },
+            {
+              "chars": 246,
+              "words": 44,
+              "tokens": 51,
+              "chars_per_token": 4.82,
+              "tokens_per_word": 1.16
+            }
+          ]
+        }
+      },
+      "ratios": {
+        "ru_en_ratio": {
+          "mean": 1.75,
+          "std": 0.52,
+          "pooled": 1.77
+        },
+        "ru_lat_en_ratio": {
+          "mean": 1.82,
+          "std": 0.62,
+          "pooled": 1.91
+        },
+        "ru_lat_ru_ratio": {
+          "mean": 1.03,
+          "std": 0.09,
+          "pooled": 1.08
+        },
+        "kk_en_ratio": {
+          "mean": 2.74,
+          "std": 1.09,
+          "pooled": 2.74
+        },
+        "kk_ru_ratio": {
+          "mean": 1.53,
+          "std": 0.19,
+          "pooled": 1.54
+        }
+      }
+    }
   }
 }
