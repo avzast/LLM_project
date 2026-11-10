@@ -213,6 +213,16 @@ class HFSentencePieceTokenizer(HFTokenizer):
         return pieces
 
 
+def tokenizer_for_model(model):
+    """Tokenizer for an OpenAI model name, exactly as the installed tiktoken maps it.
+
+    Examples: "gpt-4" -> cl100k_base, "gpt-4o" / "gpt-5" -> o200k_base,
+    "gpt-oss-20b" -> o200k_harmony. Raises KeyError for names tiktoken does not know
+    (for example Claude models, whose tokenizer is not public).
+    """
+    return TiktokenTokenizer(tiktoken.encoding_name_for_model(model))
+
+
 def load_tokenizer(name):
     if name in HF_BYTELEVEL:
         return HFByteLevelTokenizer(name, HF_BYTELEVEL[name])

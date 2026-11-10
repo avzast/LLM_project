@@ -14,6 +14,8 @@
 | `xlm-roberta` | Hugging Face `FacebookAI/xlm-roberta-base` | SentencePiece (Unigram), словарь на 250k токенов, ~100 языков | XLM-R |
 | `mistral-7b` | Hugging Face `mistralai/Mistral-7B-v0.1` | SentencePiece BPE с побайтовым запасным вариантом | Mistral 7B v0.1 |
 
+Установленный `tiktoken` 0.14 знает ещё кодировки `gpt2`, `r50k_base`, `p50k_base`, `p50k_edit` (устаревшие) и `o200k_harmony` (gpt-oss). Последняя загружается через `load_tokenizer("o200k_harmony")`, но в таблицы не включена: на обычном тексте она даёт те же токены, что `o200k_base` (отличаются только служебные токены), в тестах это проверено. По имени модели токенайзер выбирает `tokenizer_for_model("gpt-4o")` по таблице самой библиотеки (`gpt-4` → `cl100k_base`, `gpt-4o`, `gpt-5`, `o3` → `o200k_base`, `gpt-oss-*` → `o200k_harmony`), для неизвестных имён будет `KeyError`.
+
 Токенайзер Claude публично недоступен, поэтому Claude в таблицах нет. Для Hugging Face скачивается только файл `tokenizer.json` (2–9 МБ), ключ доступа не нужен. Закрытые токенайзеры (Llama 3, Gemma) требуют согласия с лицензией и токен, поэтому в опыт не вошли.
 
 ### Тексты
