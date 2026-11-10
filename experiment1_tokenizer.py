@@ -147,7 +147,8 @@ class TiktokenTokenizer(Tokenizer):
         self._enc = tiktoken.get_encoding(name)
 
     def encode_ids(self, text):
-        return self._enc.encode(text)
+        # strings like "<|endoftext|>" in the text are counted as ordinary text, not rejected
+        return self._enc.encode(text, disallowed_special=())
 
     def encode(self, text):
         return [_piece_from_bytes(self._enc.decode_single_token_bytes(i))
@@ -226,22 +227,29 @@ def load_tokenizers():
 
 # --- metrics ---------------------------------------------------------------
 
+def _div(a, b):
+    """a / b, or 0.0 when b is 0 (an empty text has no tokens or words to divide by)."""
+    return a / b if b else 0.0
+
+
 def compute_metrics(text, ids, pieces):
+    if not isinstance(text, str):
+        raise TypeError(f"text must be str, got {type(text).__name__}")
     words = len(text.split())
     return {
         "text": text,
         "chars": len(text),
         "words": words,
         "tokens": len(ids),
-        "chars_per_token": round(len(text) / len(ids), 2),
-        "tokens_per_word": round(len(ids) / words, 2),
+        "chars_per_token": round(_div(len(text), len(ids)), 2),
+        "tokens_per_word": round(_div(len(ids), words), 2),
         "pieces": pieces,
         "ids": ids,
     }
 
 
 def compute_ratios(results):
-    return {key: round(results[a]["tokens"] / results[b]["tokens"], 2) for key, a, b in RATIOS}
+    return {key: round(_div(results[a]["tokens"], results[b]["tokens"]), 2) for key, a, b in RATIOS}
 
 
 def _mean_std(values):
@@ -267,12 +275,12 @@ def run_corpus(tok, corpus=CORPUS):
                 "chars": len(text),
                 "words": len(text.split()),
                 "tokens": n_tokens,
-                "chars_per_token": round(len(text) / n_tokens, 2),
-                "tokens_per_word": round(n_tokens / len(text.split()), 2),
+                "chars_per_token": round(_div(len(text), n_tokens), 2),
+                "tokens_per_word": round(_div(n_tokens, len(text.split())), 2),
             })
         # mean/std from exact values, not from the rounded ones stored above
-        tpw_mean, tpw_std = _mean_std([i["tokens"] / i["words"] for i in items])
-        cpt_mean, cpt_std = _mean_std([i["chars"] / i["tokens"] for i in items])
+        tpw_mean, tpw_std = _mean_std([_div(i["tokens"], i["words"]) for i in items])
+        cpt_mean, cpt_std = _mean_std([_div(i["chars"], i["tokens"]) for i in items])
         total_tokens = sum(i["tokens"] for i in items)
         total_words = sum(i["words"] for i in items)
         per_lang[lang] = {
@@ -281,7 +289,7 @@ def run_corpus(tok, corpus=CORPUS):
             "total_words": total_words,
             "tokens_per_word_mean": tpw_mean,
             "tokens_per_word_std": tpw_std,
-            "pooled_tokens_per_word": round(total_tokens / total_words, 2),
+            "pooled_tokens_per_word": round(_div(total_tokens, total_words), 2),
             "chars_per_token_mean": cpt_mean,
             "chars_per_token_std": cpt_std,
             "texts": items,
@@ -289,12 +297,12 @@ def run_corpus(tok, corpus=CORPUS):
     ratios = {}
     for key, a, b in RATIOS:
         if a in per_lang and b in per_lang:
-            each = [x["tokens"] / y["tokens"] for x, y in zip(per_lang[a]["texts"], per_lang[b]["texts"])]
+            each = [_div(x["tokens"], y["tokens"]) for x, y in zip(per_lang[a]["texts"], per_lang[b]["texts"])]
             mean, std = _mean_std(each)
             ratios[key] = {
                 "mean": mean,
                 "std": std,
-                "pooled": round(per_lang[a]["total_tokens"] / per_lang[b]["total_tokens"], 2),
+                "pooled": round(_div(per_lang[a]["total_tokens"], per_lang[b]["total_tokens"]), 2),
             }
     return {"languages": per_lang, "ratios": ratios}
 
