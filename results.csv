@@ -1,0 +1,6 @@
+﻿text,chars,cl100k_base (OpenAI GPT-4),o200k_base (OpenAI GPT-4o),qwen2.5 (Alibaba),xlm-roberta (Meta),mistral-7b (Mistral AI),claude-opus-5-5 (Anthropic),claude-sonnet-5-5 (Anthropic),claude-haiku-5-5 (Anthropic)
+English,133,25,24,25,28,25,,,
+Russian,140,62,38,44,39,55,,,
+Code,242,98,98,102,100,121,,,
+Mixed,131,61,50,58,48,59,,,
+Long,10200,2001,2001,2001,2160,2001,,,
